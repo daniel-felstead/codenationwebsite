@@ -1,0 +1,132 @@
+<!-- OH NO NOT MORE WORK, cheat and use shift + 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Not quite a header div, but the head of the website, the boss, el jefe -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleredo.css">
+
+<title>print("Coding")</title> <!-- I like this title -->
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+
+</head>
+
+<body id="top">
+<!-- Begin header and navigation div -->
+<!-- Two classes can exist as one i.e navi, large -->
+<header class="main-header mh-bg">
+    <h1 class="main-header">for html in website:</h1>
+</header>
+    <nav id="nav-bar" class="nav-bar sticky-top sidebyside">
+    
+        <nav class="nav-elm"><a href="index.html" title="Home"  class="nav-link">Home</a></nav>
+    
+        <nav class="dropdown nav-elm"><span class="nav-link activepage">Information</span>
+    
+            <nav class="dropdown-content">
+    
+                <a href="coding.html" title="Coding" class="nav-link nav-under activepage">Coding</a>
+    
+                <a href="contact.html" title="Contact" class="nav-link nav-under">Contact</a>
+
+            </nav>
+    
+        </nav>
+        
+    </nav>
+
+
+
+<!-- <main> (div) begins here -->
+    <!-- You can jump with a #class in a href -->
+    <a href="#top"><button id="topBtn" title="Go to top">ꜛ</button></a>
+
+    <main class="crtback">
+
+
+    <!-- Seperated into sections with articles and aside see: https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Section 1 -->
+        <section class="sticky-contain">
+            <h3 class="sticky-headerfloat">Python</h3>
+            <div class="sidebyside">
+                <article>
+                <h2>while article_python = True</h2>
+                <p>Beginning this week I didn't know how to code whatsoever, I was familiar with some of the concepts and terms and had a very rudimentary knowledge of HTML from peeking at source code of websites. I even owned books on <span class="highlight">HTML, CSS and jQuery</span>, but I was never encouraged to work quietly in a room and learn alone in this way.<br><br>I saw <span class="emphasis">Code Nation</span> advertised and I knew immediately this was something that I wanted to pursue, the interest was there - just not the learning method.<br><br>Learning with people and having demonstrations of the basic concepts really helps me understand what can be done and what possibilities exist.<br><br>When we started the course we were presented with the code <span class="code-snip">for i in range(10):</span> which of course was completely foreign.<br><br>For the week I learned Python my knowledge expanded to a point where I was confident enough to write code, think of solutions and pursue ideas with a try and reassess if it didn't work attitude.<br><br>I have had so much fun learning it, particularly the free-reign second week where we were tasked to <span class="emphasis">build a game</span>.<br><br>Not only was the learning experience fantastic, I've learned key insights and a passion for making things with code, but also probably most importantly <span class="emphasis">the people</span>. I really believe that bouncing ideas and code snippets around has had a huge impact and increased the overall enjoyment of the course and coding.<br><br>I would love to pursue a career in it, I think working collaboratively on code in this manner is excellent and I would encourage anyone who wants to learn code: <span class="emphasis">try</span>!</p>
+
+                </article>
+                
+                <aside class="sticky-sidefloat">
+                    <h3>Code example</h3>
+                    <p>See an example of an if statement below:
+                    <br><br>
+                        <snip class="code-snip">if answer == 1:
+                        player_details['pronoun'] = "he/him"
+                        time.sleep(1)
+                        stext(f"Okay, {player_details['pronoun'].upper()} got it...\n")</snip>
+                    <br><br>
+                    See an example of a while statement below:
+                    <br><br>
+                    <snip class="code-snip">while ans3 == "":
+                        clscon()
+                        stext(f"What is...")
+                        ans3 = input()</snip></p>
+
+                </aside>
+            </div>
+        </section>
+
+    <!-- Section 2 -->
+        <section class="sticky-contain">
+            <h3 class="sticky-headerfloat">HTML & CSS</h3>
+            <div class="sidebyside">
+                <article>
+                    <h2>.article { }</h2>
+                    <p>At a glance HTML & CSS seemed simple when compared to Python. This was my error. Although the languages are easier to understand, working with them in practice is not as straightforward as you have a visual representation to work with and tweak. Small changes can become complex problem solving practices.<br><br>We learned the basics of these languages at the beginning of the third week. By the end of it we needed a functional website (<span class="highlight">which you are now viewing</span>), a daunting task indeed. One that required extra research and a lot of trial and error.<br><br>I had originally written the CSS with a thought processes that was too logical, I ended up <span class="emphasis">reworking it</span> and starting the CSS from scratch with a structure in my head of how to lay it out. I am happier with the result, but I also know that with practice I can get better at this.<br><br>Overall I have enjoyed learning HTML and CSS, as with Python I would recommend at least trying to learn the basics. What's the worst that can happen?<br><br>I am truly grateful for the three weeks of learning that I have had, particularly of <span class="emphasis">Keira @ Code Nation</span> who has made this a phenomenal experience.</p>
+
+                </article>
+                
+                <aside class="sticky-sidefloat">
+                    <h3>Code example</h3>
+                    <p>See an example of HTML below:
+                        <br><br>
+                            <snip class="code-snip">&lt;header class="main-header mh-bg"&gt;
+                                &lt;h1 class="main-header"&gt;for html in website:&lt;/h1&gt;
+                            &lt;/header&gt;</snip>
+                        <br><br>
+                        See an example of CSS below:
+                        <br><br>
+                        <snip class="code-snip">.main-header {
+                            display:flex;
+                            background-color: #8F6C6A;
+                            margin: auto;
+                            max-width: 100%;
+                            min-width: none;</snip></p>
+
+                </aside>
+            </div>
+        </section>
+        
+    </main>
+    
+<!-- Footnotes and things -->
+<footer class="sidebyside">
+    
+    <div class="footer-space">
+        <p class="footer">Author: <a href="mailto:felstead.daniel@me.com&subject=Your Website">Daniel Felstead</a>
+        <br>It's the end of the code as we know it.<br><br> & I feel fine.</p>
+    </div>
+    
+    <div class="footer-space">
+        <p class="footer">©<br><br><br>There is no copyright, rip and tear until it is done.</p>
+    </div>
+    
+        <a class ="footer-thumb" href="https://www.youtube.com/watch?v=ocv01h5LnfE" target="_blank"><img class="footer-thumb" src="image/frisk.png" alt="Frisk from Undertale yawning"></a>
+    
+
+</footer>
+<!-- And we stop the page -->
+</body>
+
+</html>
